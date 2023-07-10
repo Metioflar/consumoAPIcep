@@ -1,0 +1,36 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+}
+h1{
+    font-family: 'helvetica';
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+label{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    border: rgb(155, 155, 155) solid 1px;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+input:hover{
+    border: rgb(36, 36, 36) solid 1px;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.nada{
+    width: 20rem;
+}
